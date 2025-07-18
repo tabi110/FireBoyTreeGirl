@@ -79,8 +79,8 @@ public class LevelSelectManager : MonoBehaviour
             Button btn = levelButtons[i].GetComponent<Button>();
             if (btn != null)
             {   
-                btn.interactable = isUnlocked;
-                //btn.enabled = isUnlocked;
+                //btn.interactable = isUnlocked;
+                btn.enabled = isUnlocked;
             }
         }
     }
